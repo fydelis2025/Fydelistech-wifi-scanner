@@ -21,7 +21,7 @@ int main() {
     // --- Verificar root ---
     if (getuid() != 0) {
         printf("[!] Erro: Privilégios insuficientes.\n");
-        printf("[*] Execute: sudo ./wifiok\n");
+        printf("[*] Execute: sudo ./scan_wifi\n");
         return EXIT_FAILURE;
     }
 
